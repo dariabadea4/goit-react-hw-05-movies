@@ -2,7 +2,7 @@ const controller = new AbortController();
 const signal = controller.signal;
 
 const API_THEMOVIEDB_BASE_URL = 'https://api.themoviedb.org/3';
-const API_KEY = 'api_key=d3d5044f23d7b8347f525b76e517e169';
+const API_KEY = 'api_key=ed0ba232a842a0e088d60151bc7fdce4';
 
 export const fetchTrendingMovies = async () => {
   return await fetch(
